@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { addContact } from 'redux/operations';
+// import { getContacts } from 'redux/selectors';
 import { selectContacts } from 'redux/selectors';
 import { nanoid } from 'nanoid';
 import { toast } from 'react-toastify';
